@@ -1,0 +1,20 @@
+<!doctype html>
+
+<html>
+<head>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <ul>
+    {{ #robots }}
+    <li>
+      <img src="{{ avatar }}">
+      {{ name }}
+      {{ job }} {{ company }}
+    </li>
+    {{ /robots }}
+  </ul>
+</body>
+
+</html>

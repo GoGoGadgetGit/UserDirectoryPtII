@@ -1,0 +1,16 @@
+ul{
+  list-style: none;
+  display: inline-block;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+li{
+  width: 20%;
+  border: .5px solid lightgrey;
+  margin: 5px;
+  font-weight: lighter;
+  /*display: flex;
+  justify-content: space-between;*/
+}
